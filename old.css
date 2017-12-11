@@ -1,0 +1,114 @@
+/* Mobile CSS */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: linen;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    color: indianred;
+    /* width: 100%; */
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;  
+    /* padding-top: 3em; */
+    padding-right: 2em ;
+    font-size: 4em;
+    margin: auto;
+    color: indianred;
+}
+
+header {
+    display: block;
+    /* position: top; */
+    min-height: 500px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header > .image {
+    position: absolute;
+    background: #95a5a6
+    url("images/kitchen2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    /* opacity: .9; */
+    text-align: center;  
+}
+
+/* #menu {
+    display: inline-block;
+    margin: 0 auto;
+} */
+
+
+#menuLink {
+    padding: 1em;
+}
+
+#menu img, #map img {
+    /* display: inline-block; */
+    padding: 3em;
+    width: 65%;
+    box-shadow: 3px 3px 3px 3px #7f8c8d;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#menu a{
+    padding-top: 1em;
+    text-decoration: none;
+    color: #1abc9c;
+    text-align: center;
+}
+
+/* #menu a:hover , footer > div> a:hover {
+    color: 
+} */
+
+p {
+    /* margin: 0; */
+    padding: 1em;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em;
+}
+
+/* #call {
+    margin: 0 auto;
+} */
+
+ul {
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: #one #two;
+    background: #7f8c8d;
+    color: black;
+}
+
+#one , #two {
+    padding: 15px;
+}
+
+footer > #two > a {
+    color: #c0392b;
+    text-decoration: none;
+}
+
+
+/* Media Query */
