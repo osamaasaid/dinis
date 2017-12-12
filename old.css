@@ -59,7 +59,7 @@ header > .image {
     /* display: inline-block; */
     padding: 3em;
     width: 65%;
-    box-shadow: 3px 3px 3px 3px #7f8c8d;
+    box-shadow: 1px 1px 1px 1px #7f8c8d;
     opacity: 0.8;
     text-align: center;
 }
@@ -95,19 +95,28 @@ ul {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: #one #two;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: #one #two #three;
     background: #7f8c8d;
     color: black;
 }
 
-#one , #two {
-    padding: 15px;
+#one , #two, #three {
+    padding: 1em;
 }
 
-footer > #two > a {
+.fa-twitter-square {
+    padding: 0em 1.7em;
+}
+
+footer > #three > a {
     color: #c0392b;
-    text-decoration: none;
+    text-decoration: none;    
+}
+
+#three {
+    font-size: 0.5em;
+    padding-top: 2.5em;
 }
 
 
