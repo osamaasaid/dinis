@@ -33,8 +33,7 @@ header {
 
 header > .image {
     position: absolute;
-    background: #95a5a6
-    url("images/kitchen2.jpg");
+    background: url("/images/kitchen2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +104,7 @@ footer {
     padding: 1em;
 }
 
-.fa-twitter-square {
+.fa-snapchat {
     padding: 0em 1.7em;
 }
 
@@ -117,6 +116,11 @@ footer > #three > a {
 #three {
     font-size: 0.5em;
     padding-top: 2.5em;
+}
+
+#social > a {
+    text-decoration: none;
+    color: black;
 }
 
 
